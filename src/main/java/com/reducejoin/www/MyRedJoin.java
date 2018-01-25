@@ -71,7 +71,7 @@ public class MyRedJoin extends Configured implements Tool {
 
             for (int i = 0; i < vc.size(); i++) {//笛卡尔积
                 for (int j = 0; j < vo.size(); j++) {
-                    redoutvalue.set("," + vc.get(i) + "," + vo.get(j));
+                    redoutvalue.set(vc.get(i) + "," + vo.get(j));
                     context.write(key, redoutvalue);
                 }
             }
