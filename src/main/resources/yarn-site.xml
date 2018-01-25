@@ -21,7 +21,7 @@
     </property>
 <property>
         <name>yarn.resourcemanager.hostname</name>
-        <value>beifeng</value>
+        <value>beifeng1</value>
     </property>
 
 <property>
